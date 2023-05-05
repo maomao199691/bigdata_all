@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="JavaSE-Code" />
+        <module name="Spark-Sql" />
+        <module name="Flink-Sql" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="bigdata (1)" target="1.5" />
+      <module name="bigdata (2) (com.atguigu)" target="8" />
+      <module name="FlinkCode" target="8" />
+      <module name="JavaSECode" target="1.7" />
+      <module name="SparkCode" target="8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
